@@ -1,0 +1,11 @@
+{
+  "name": "node-domashna-c4",
+  "version": "1.0.0",
+  "description": "Domashna Useri i Postovi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elena Bozhinova",
+  "license": "ISC"
+}

@@ -1,0 +1,125 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #060606;
+}
+
+button,
+input,
+select,
+textarea {
+	font: inherit;
+}
+
+a {
+	color: inherit;
+}
+
+.profile {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+	width: 100%;
+	max-width: 400px;
+	background-color: #1b2028;
+	border-radius: 20px;
+	border: 2px solid rgb(198, 0, 198, .3) ;
+	background-clip: padding-box;
+	text-align: center;
+	color: #f1f3f3;
+	
+}
+
+.profile-image { 
+    position: relative; 
+    margin-top: 50px;
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+    
+.profile-image img { 
+    width: 100%; 
+    height: auto; 
+}
+
+
+.profile-username {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-top: 1.5rem;
+}
+
+.profile-user-handle {
+	color: #7d8396;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.profile-info div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+
+.profile-info h4 {
+    font-size: small;
+    color: #7d8396
+}
+
+.profile-info div i {
+    margin-bottom: -10px;
+    color: #7d8396
+}
+
+.profile-info div p {
+    margin-top: -5px;
+    font-size: large;
+}
+
+.profile-actions {
+	margin-top: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    color: #7d8396;
+
+}
+
+.profile-links {
+    display: flex;
+    justify-content: space-between;
+	text-decoration: none;
+	color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.profile-links a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profile-links a i {
+    font-size: larger;
+}
+
+.profile-links :hover {
+    color: rgba(223, 0, 223);
+
+}
